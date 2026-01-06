@@ -31,11 +31,3 @@
 - **Send Money:** Enter amount and recipient to transfer instantly.
 
 ---
-
-## Setup & Installation
-
-1. Clone the repository:
-
-```bash
-git clone <your-repo-url>
-cd thumbit-frontend
