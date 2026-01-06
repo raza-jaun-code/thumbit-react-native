@@ -1,50 +1,41 @@
-# Welcome to your Expo app 👋
+# ThumbIt Frontend
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**ThumbIt Frontend** is a **React Native** mobile application that enables secure, fingerprint-based money transfers. Users can send and receive money instantly without needing a mobile number, credit card, or bank account.
 
-## Get started
+---
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+- **Fingerprint Authentication:** Secure login and transaction approval using biometric data.
+- **Instant Money Transfers:** Send and receive funds quickly and safely.
+- **Transaction History:** View past transactions with details.
+- **Balance Overview:** Monitor your account balance in real-time.
+- **Cross-Platform:** Supports both **iOS and Android** devices.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## Tech Stack
 
-In the output, you'll find options to open the app in a
+- **Framework:** React Native  
+- **State Management:** React Hooks / Context API  
+- **API Integration:** Axios / Fetch to communicate with ThumbIt Backend  
+- **Biometric Authentication:** Fingerprint API  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Screens
 
-## Get a fresh project
+- **Login Screen:** Authenticate using fingerprint.  
+- **Dashboard:** Overview of balance and quick transfer options.  
+- **Transactions:** History of past money transfers.  
+- **Send Money:** Enter amount and recipient to transfer instantly.
 
-When you're ready, run:
+---
+
+## Setup & Installation
+
+1. Clone the repository:
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone <your-repo-url>
+cd thumbit-frontend
